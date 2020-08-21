@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "@tools/test": "0-workspace"
+  }
 }
