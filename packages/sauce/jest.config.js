@@ -1,7 +1,8 @@
 console.log("in sauce test config");
 
-const sharedPackageConfig = require("@tools/test/package.jest.config.js");
+const { sharedConfig, utils } = require("@tools/test");
 
 module.exports = {
-  ...sharedPackageConfig,
+  ...sharedConfig,
+  projects: utils.createJestProjects("sauce", process.cwd()),
 };

@@ -5,6 +5,6 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@tools/test": "0-workspace"
+    "@tools/test": "1.0.0"
   }
 }

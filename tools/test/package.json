@@ -1,10 +1,11 @@
 {
   "name": "@tools/test",
-  "version": "0-workspace",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "execa": "^4.0.3",
     "jest": "^26.4.1"
   }
 }
